@@ -1,52 +1,44 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.tokens
+*.orig
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ide and tools
+.vs/
+.idea/
+*resharper*
+_ReSharper*/
+[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*
+*.[Pp]ublish.xml
+*.orig
+*.tmp_proj
+*.rej
+Logs/
+
+# packages
+packages/
+
+# bin
+[Bb]in
+obj/
+[Db]ebug/
+[Rr]elease/
